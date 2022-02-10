@@ -25,3 +25,9 @@ puts 6 < 0        # false
 puts 25 <= 25     # true
 puts 12 >= 16     # false
 
+# Boolean Examples
+puts false || false   # false
+puts true && false    # false
+puts 5 > 0 || false   # true
+puts !true            # false
+
