@@ -40,3 +40,4 @@ end
 # Below are two valid ways to call the greet method.
 greet "programmers"
 greet("programmers") # this is preferred since greet does expect parameters
+
