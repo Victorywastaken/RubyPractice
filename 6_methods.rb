@@ -1,4 +1,4 @@
-#methods (basically functions)
+#Methods (basically functions)
 def sayMessage
   puts 'hello'
   puts 'how are you'

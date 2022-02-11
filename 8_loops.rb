@@ -1,3 +1,5 @@
+#Loops
+
 #method that repeats Hello 3 times forcefully
 def repeatHello
   puts "Hello"

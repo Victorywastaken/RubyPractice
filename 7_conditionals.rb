@@ -1,3 +1,5 @@
+#Conditionals
+
 num = -5
 
 if num > 0
@@ -20,4 +22,10 @@ if num % 2 == 0
   puts "even"
 end
 
+#else or els makes the conditions exclusive
 
+if num > 0
+  put "positive"
+else
+  puts "negative"
+end
