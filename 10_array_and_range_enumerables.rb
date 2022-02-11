@@ -140,3 +140,9 @@ def fizzBuzz(max)
     end
   return arr
 end
+
+(0...4).each { |num| puts num } # prints 0, 1, 2, 3
+
+(0...4).each { |num| puts "hello" } # prints hello, hello, hello, hello
+#another way of doing the above
+4.times { puts "hi" } # prints hi, hi, hi, hi
