@@ -33,3 +33,4 @@ end
 greet("Chao") # => "default and Chao"
 
 #The method above is not intuitive because although "Chao" is the first argument passed in, person_2 will be assigned "Chao". Avoid this by only assigning default values at the end of the parameter list.
+
