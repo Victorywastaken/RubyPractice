@@ -1,10 +1,11 @@
-foo = 5
+str = "hello"   # the string
+sym = :hello    # the symbol
 
-def testfunc
-  foo = 10
-end
+p str.length    # => 5
+p sym.length    # => 5
 
-p foo
-p testfunc
-p foo
+p str[1]        # => "e"
+p sym[1]        # => "e"
 
+p str == sym    # => false
+# a string is different from a symbol!
