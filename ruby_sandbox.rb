@@ -1,11 +1,13 @@
-str = "hello"   # the string
-sym = :hello    # the symbol
+# str = "hello"   # the string
+# sym = :hello    # the symbol
 
-p str.length    # => 5
-p sym.length    # => 5
+# p str.length    # => 5
+# p sym.length    # => 5
 
-p str[1]        # => "e"
-p sym[1]        # => "e"
+# p str[1]        # => "e"
+# p sym[1]        # => "e"
 
-p str == sym    # => false
-# a string is different from a symbol!
+# p str == sym    # => false
+# # a string is different from a symbol!
+
+p [1,2, 3] + ['a']
